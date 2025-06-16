@@ -1,3 +1,4 @@
+import pytest
 def test_solve_easy_board():
     from sudoku.solver import solve
     from sudoku.utils import print_board
