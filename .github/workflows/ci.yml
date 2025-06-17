@@ -1,5 +1,13 @@
 name: Sudoku CI
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'sudoku/**/*.py'
+      - 'tests/**/*.py'
+  pull_request:
+    paths:
+      - 'sudoku/**/*.py'
+      - 'tests/**/*.py'
 jobs:
   build:
     runs-on: ubuntu-latest
