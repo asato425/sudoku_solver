@@ -38,7 +38,7 @@ def test_solve_almost_solved_board():
         [9, 6, 1, 5, 3, 7, 2, 8, 4],
         [2, 8, 7, 4, 1, 9, 6, 3, 5],
         [3, 4, 5, 2, 8, 6, 1, 7, 9]
-    ]
+    ]  
 
     print("Original Board:")
     print_board(almost_solved)
@@ -132,7 +132,9 @@ def test_solve_one_missing_cell():
         [2, 8, 7, 4, 1, 9, 6, 3, 5],
         [3, 4, 5, 2, 8, 6, 1, 7, 0]  # Only one cell missing
     ]
-
+    
+    
+    
     print("Original Board:")
     print_board(one_missing)
 

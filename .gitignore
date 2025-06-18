@@ -1,0 +1,37 @@
+# macOSのシステムファイル
+.DS_Store
+
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+.venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE関連 (PyCharm)
+.idea/
+*.iml
+
+# テスト関連
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ログファイル
+*.log
+
+# その他
+*.swp
+*.swo
+*.bak
+*.tmp
